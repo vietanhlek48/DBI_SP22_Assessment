@@ -2,51 +2,64 @@
 
 
 ## Student
-```
+
+```text
 * StudentID
 * First Name
 * Last Name
-* Date of Birth
 * Gender
-* Address
-```
-## Lecture
-```
-* LectureID
-* First Name
-* Last Name
-* Date of Birth
-* Gender
-* Address
-```
-## Group
-```
-* GroupID
-* Group Name
-* Department
+* Age
+* Email
 ```
 
-## Course
-```
-* CourseID
-* Course Name
-```
+## Subject
 
-## Grade
-```
-* CategoryID
-* Weight
+```text
+* SubjectID
+* Subject Name
+* Start date
 * Score
 ```
 
-## Student Grade
+## Lecture
+
+```text
+* LectureID
+* Name
+* Category
+* Type
+* Part
+* Completion criteria 
+* LO
+* Question type
+* No question
+* Knowledge and Skill
+* Granding guide
+* note
 ```
+
+## Semester
+
+```text
+* SubjectID
+* Subject Name
+* Semester name
+* Group
+* Start date
+* End date
+* Average Mark
 * Status
+```
+
+## Detail Result
+
+```text
+* SubjectID
+* Subject Name
+* Grande category
+* Grande item
+* Weight
 * Value
-* AVG
-```
-## Categories
-```
-* CourseId
+* Comment
 ```
 
