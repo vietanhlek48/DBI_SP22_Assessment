@@ -1,10 +1,20 @@
 # Identify Entity and Atributes
 
-
 ## Student
 
 ```text
 * StudentID
+* First Name
+* Last Name
+* Gender
+* Age
+* Email
+```
+
+## Lecture
+
+```text
+* LectureID
 * First Name
 * Last Name
 * Gender
@@ -18,48 +28,47 @@
 * SubjectID
 * Subject Name
 * Start date
+* End date
 * Score
-```
-
-## Lecture
-
-```text
-* LectureID
-* Name
-* Category
-* Type
-* Part
-* Completion criteria 
-* LO
-* Question type
-* No question
-* Knowledge and Skill
-* Granding guide
-* note
 ```
 
 ## Semester
 
 ```text
-* SubjectID
-* Subject Name
+* SemesterID
 * Semester name
-* Group
+* Status
 * Start date
 * End date
 * Average Mark
-* Status
+* Group
 ```
 
-## Detail Result
+## Assessment
 
 ```text
-* SubjectID
-* Subject Name
+* AssessmentID
+* No question
+* Part
+* Type
+* LO
+* Granding guide
+* Note
+* Knowledge and Skill
+* Duration
+* Weight
+* Question type
+* Completion criteria 
+* Category
+```
+
+## Result
+
+```text
+* ResultID
 * Grande category
 * Grande item
 * Weight
 * Value
 * Comment
 ```
-
