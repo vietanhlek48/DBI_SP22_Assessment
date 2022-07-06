@@ -3,72 +3,66 @@
 ## Student
 
 ```text
-* StudentID
-* First Name
-* Last Name
-* Gender
-* Age
-* Email
+* StudentID - int
+* Name - nvarchar(50)
+* Gender - bit
+* Dob - date
+* Email - nvarchar(50)
 ```
 
-## Lecture
+## Teacher
 
 ```text
-* LectureID
-* First Name
-* Last Name
-* Gender
-* Age
-* Email
+* TeacherID - int
+* Name - nvarchar(50)
+* Gender - bit
+* Dob - Date
+* Email - nvarchar(50)
 ```
 
 ## Subject
 
 ```text
-* SubjectID
-* Subject Name
-* Start date
-* End date
-* Score
+* SubjectID - int
+* SubjectCode - nchar(10)
+* SubjectName - nvarchar(50) 
+
 ```
 
 ## Semester
 
 ```text
-* SemesterID
-* Semester name
-* Status
-* Start date
-* End date
-* Average Mark
-* Group
+* SemesterID - int
+* SemesterName - nchar(15)
 ```
 
 ## Assessment
 
 ```text
-* AssessmentID
-* No question
-* Part
-* Type
-* LO
-* Granding guide
-* Note
-* Knowledge and Skill
-* Duration
-* Weight
-* Question type
-* Completion criteria 
-* Category
+* AssessmentID - int
+* Name - nchar(10)
+* TypeID - int
+* Part - int
+* Weight - int
+* CompletionCreatia - int
+* Duration - nvarchar(50)
+* NoQuestion - int
+* SubjectID - int
+
 ```
 
-## Result
+## Mark
 
 ```text
-* ResultID
-* Grande category
-* Grande item
-* Weight
-* Value
-* Comment
+* MarkID - int
+* Mark - int
+```
+
+## Group
+
+```text
+
+* GroupID - int
+* GroupCode - nchar(10)
+
 ```
